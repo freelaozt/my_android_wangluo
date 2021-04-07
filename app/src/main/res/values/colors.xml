@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CC6666</color>
+    <color name="colorPrimaryDark">#CC9999</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent_white">#88ffffff</color>
+    <color name="unselectedIconColor">#aaa</color>
+
+    <color name="colorBottomNav">#CC7777</color>
+
+    <color name="colorPrimaryDeep">#CC4444</color>
+    <color name="f5f5f5">#F5F5F5</color>
+    <color name="dddddd">#DDDDDD</color>
+    <color name="FFFFFF">#FFFFFF</color>
+
+    <color name="default_text_color">#CC4444</color>
+</resources>

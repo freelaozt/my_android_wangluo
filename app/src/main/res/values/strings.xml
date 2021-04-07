@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">nizwop</string>
+    <string name="large_text">"
+        <![CDATA[<h1>公告</h1><br>]]>
+        <![CDATA[<br><font> App用于分享交流收藏链接</font><br>]]>
+        <![CDATA[<br><font color="#00ff1212">不得提交任何违法链接</font><br>]]>
+        <![CDATA[<br>如收录链接信息侵权，<font color="#00ff1212">请联系删除</font><br>]]>
+        <![CDATA[<h1>联系方式</h1><br>]]>
+        <![CDATA[<br>QQ：<a href="">2774079828</a> QQ交流群：<a href="">673898387</a><br>]]>
+        <![CDATA[<br>有什么问题请联系哦<br>]]>
+        "</string>
+
+    <!--<!__IconFonts__>-->
+    <string name="icon_gear_a">&#xf43d;</string>
+    <string name="icon_gear_a_outline">&#xf43c;</string>
+    <string name="icon_gear_b">&#xf13e;</string>
+    <string name="icon_favorite">&#xf388;</string>
+    <string name="icon_favorite_outline">&#xf387;</string>
+    <string name="icon_settings">&#xf2f7;</string>
+    <string name="icon_star">&#xf2fc;</string>
+    <string name="icon_star_outline">&#xf3ae;</string>
+    <string name="icon_clipboard">&#xf127;</string>
+    <string name="icon_compose">&#xf12c;</string>
+    <string name="icon_heart">&#xf141;</string>
+    <string name="icon_heart_broken">&#xf31d;</string>
+    <string name="icon_heart_a">&#xf443;</string>
+    <string name="icon_heart_a_broken">&#xf442;</string>
+    <string name="icon_email">&#xf423;</string>
+    <string name="icon_email_outline">&#xf422;</string>
+    <string name="icon_textsms">&#xf3b2;</string>
+    <string name="icon_chevron_down">&#xf123;</string>
+    <string name="icon_chevron_left">&#xf124;</string>
+    <string name="icon_chevron_right">&#xf125;</string>
+    <string name="icon_chevron_up">&#xf126;</string>
+    <string name="icon_picture_a">&#xf2e4;</string>
+    <string name="icon_picture_b">&#xf147;</string>
+    <string name="icon_picture_c">&#xf148;</string>
+    <string name="ion_android_search">&#xf2f5;</string>
+    <string name="ion_ios_search">&#xf4a5;</string>
+    <string name="ion_ios_search_strong">&#xf4a4;</string>
+    <string name="ion_search">&#xf21f;</string>
+    <string name="ion_android_time">&#xf3b3;</string>
+    <string name="ion_ios_time">&#xf4bf;</string>
+    <string name="ion_ios_time_outline">&#xf4be;</string>
+    <string name="ion_ios_timer">&#xf4c1;</string>
+    <string name="ion_ios_timer_outline">&#xf4c0;</string>
+    <string name="ion_android_textsms">&#xf3b2; </string>
+    <string name="ion_android_more_horizontal">&#xf396;</string>
+    <string name="ion_android_more_vertical">&#xf397;</string>
+    <string name="ion_ios_more">&#xf46a;</string>
+    <string name="ion_ios_more_outline">&#xf469;</string>
+    <string name="ion_more">&#xf20b;</string>
+    <string name="ion_ios_recording">&#xf497;</string>
+    <string name="ion_ios_recording_outline">&#xf496;</string>
+    <string name="ion_pricetag">&#xf2aa;</string>
+    <string name="ion_pricetags">&#xf2ab;</string>
+    <string name="ion_ios_pricetag">&#xf48d;</string>
+    <string name="ion_ios_pricetag_outline"> &#xf48c;</string>
+    <string name="ion_ios_pricetags">&#xf48f;</string>
+    <string name="ion_ios_pricetags_outline">&#xf48e;</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">登录</string>
+    <string name="prompt_email">请输入邮箱</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">此电子邮件地址无效</string>
+    <string name="error_invalid_password">此密码是太短</string>
+    <string name="error_incorrect_password">此密码不正确</string>
+    <string name="error_field_required">此字段是必需的</string>
+    <string name="error_user_name_exist">此用户名不可用</string>
+    <string name="error_user_name_nothing">此用户名可用</string>
+    <string name="error_email_exist">此邮箱不可用</string>
+    <string name="error_email_nothing">此邮箱可用</string>
+    <string name="error_email_exist_2">此邮箱存在</string>
+    <string name="error_email_nothing_2">此邮箱不存在</string>
+    <string name="permission_rationale">"提供电子邮件完成需要联系人的权限。"</string>
+
+    <string name="title_activity_register">注册</string>
+    <string name="action_register">注册</string>
+    <string name="prompt_username">请输入用户名</string>
+    <string name="action_register_short">注册</string>
+</resources>

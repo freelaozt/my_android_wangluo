@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.look.fora.basic.MainActivity">
+    <!--app:showAsAction(指定了该按钮显示的位置)="
+    never(never则表示永远显示在overflow中)
+    ifRoom(表示屏幕空间够的情况下显示在ActionBar中，不够的话就显示在overflow中)
+    always(表示永远显示在ActionBar中,如果屏幕空间不够则无法显示)"-->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="搜索"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_write"-->
+        <!--android:icon="@mipmap/ic_launcher"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="等待"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="等待" />-->
+    <!--<item-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="等待" />-->
+</menu>

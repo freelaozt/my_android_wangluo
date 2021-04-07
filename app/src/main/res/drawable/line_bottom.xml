@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <!-- set the shadow color here -->
+            <stroke android:width="1dp" android:color="#ABABAB" />
+
+            <!-- setting the thickness of shadow (positive value will give shadow on that side) -->
+
+            <padding android:bottom="1dp" android:left="-1dp" android:right="-1dp" android:top="-1dp" />
+
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <!--设置右下有边框-->
+    <item>
+        <shape>
+            <solid android:color="#fff" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+</layer-list>

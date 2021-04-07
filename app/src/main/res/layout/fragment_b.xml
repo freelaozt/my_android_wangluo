@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/icon_throw_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/icon_clipboard"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/ed_include_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg_textarea"
+                android:hint="请输入标题"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLength="60"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="#555"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ed_include_href"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg_textarea"
+                android:gravity="top"
+                android:hint="请输入网址链接"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:textColor="#555"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ed_include_des"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg_textarea"
+                android:gravity="top"
+                android:hint="请输入链接描述"
+                android:maxLength="200"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:textColor="#555"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ed_include_label"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg_textarea"
+                android:gravity="top"
+                android:hint="请输入标签"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:textColor="#555"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_submit_include"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message_feedback_et"
+                android:layout_marginTop="20dp"
+                android:text="提交" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

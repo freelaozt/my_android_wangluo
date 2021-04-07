@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+
+    <com.ss.bottomnavigation.BottomNavigation
+        android:id="@+id/bottom_navigation"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/toolbar"
+        android:background="#fff"
+        app:mode="tablet">
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:tab_icon="@drawable/ic_bottom_nav_1_color_primary"
+            app:tab_text="首页" />
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_images"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:tab_icon="@drawable/ic_bottom_nav_2_color_primary"
+            app:tab_text="收录" />
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:tab_icon="@drawable/ic_bottom_nav_3_color_primary"
+            app:tab_text="标签" />
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_products"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:tab_icon="@drawable/ic_bottom_nav_4_color_primary"
+            app:tab_text="反馈" />
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:tab_icon="@drawable/ic_bottom_nav_5_color_primary"
+            app:tab_text="我的" />
+
+    </com.ss.bottomnavigation.BottomNavigation>
+
+    <FrameLayout
+        android:id="@+id/frame_fragment_containers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@id/bottom_navigation" />
+
+</RelativeLayout>
